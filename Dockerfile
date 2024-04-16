@@ -11,4 +11,4 @@ COPY . .
 EXPOSE 18099
 
 # Command to run the application
-CMD ["node", "-e", "require('http').createServer((req, res) => res.end(require('fs').readFileSync('index.html'))).listen(8099)"]
+CMD ["node", "-e", "require('http').createServer((req, res) => res.end(require('fs').readFileSync('index.html'))).listen(18099)"]
