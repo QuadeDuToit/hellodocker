@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t yourdockerhubusername/hello-world-html .
+        run: docker build -t qkdt/hellodocker .
 
       - name: Push Docker image
-        run: docker push yourdockerhubusername/hello-world-html
+        run: docker push qkdt/hellodocker
