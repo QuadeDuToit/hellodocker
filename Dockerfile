@@ -8,12 +8,12 @@ WORKDIR /usr/src/app
 COPY index.html .
 
 # Expose port 8080
-EXPOSE 18099
+EXPOSE 8080
 
 # Install http-server globally using npm
 RUN npm install -g http-server
 
 # Command to run the http-server to serve the HTML file
-CMD ["http-server", "-p", "18099"]
+CMD ["http-server", "-p", "8080"]
 
  
