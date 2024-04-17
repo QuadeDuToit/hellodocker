@@ -2,8 +2,8 @@
 FROM nginx:alpine
  
 # Copy your HTML file to the working directory
-COPY . /usr/share/nginx/html/test
+COPY . /usr/share/nginx/html/html
 
 # Expose port 8080
-EXPOSE 3001
+EXPOSE 8000
  

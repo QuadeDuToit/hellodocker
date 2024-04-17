@@ -1,11 +1,9 @@
-version: '3.8'
+version: "3"
+
 services:
-# web service HTML app
-  web:
-    # context to build Dockerfile
-    build: .
-    # Container name
-    container_name: html-webapp
-    # Map port 3000 on the host to port 80 in the container
-    ports:
-      - "3001:80"
+    client:
+        image: nginx
+        ports:
+            - 8000:80
+        volumes:
+            - ./src:/usr/share/nginx/html
