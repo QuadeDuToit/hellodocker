@@ -32,8 +32,8 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t yourdockerusername/yourimagename .
-          docker push yourdockerusername/yourimagename
+          docker build -t qkdt/hellodocker .
+          docker push qkdt/hellodocker
 
       - name: Show deployed containers
         run: docker ps -a
