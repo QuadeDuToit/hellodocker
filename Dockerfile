@@ -11,4 +11,4 @@
 FROM nginx
 
 # Copy the contents of the 'src' directory (where your index.html is located) to the nginx html directory
-COPY ./src /usr/share/nginx/html
+COPY . /usr/share/nginx/html
