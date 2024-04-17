@@ -4,4 +4,4 @@ services:
   hello-world:
     build: .
     ports:
-      - "18099:18099"
+      - "8080:80"
