@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhello_world_app"]=self["webpackChunkhello_world_app"]||[]).push([[594],{603:function(n,u,a){a.r(u),a.d(u,{default:function(){return h}});var e=a(6768);const r={class:"about"},l=(0,e.Lk)("h1",null,"This is an about page",-1),t=[l];function o(n,u){return(0,e.uX)(),(0,e.CE)("div",r,t)}var s=a(1241);const c={},p=(0,s.A)(c,[["render",o]]);var h=p}}]);
+//# sourceMappingURL=about.0202d386.js.map
