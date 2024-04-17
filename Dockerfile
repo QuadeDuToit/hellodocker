@@ -8,7 +8,7 @@ FROM nginx:alpine
 COPY . /usr/share/nginx/html/test
 
 # Expose port 8080
-# EXPOSE 8080
+EXPOSE 18099
 
 # Install http-server globally using npm
 #RUN npm install -g http-server
