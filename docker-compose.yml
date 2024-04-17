@@ -8,4 +8,4 @@ services:
     container_name: html-webapp
     # Map port 3000 on the host to port 80 in the container
     ports:
-      - "3000:80"
+      - "3001:80"
