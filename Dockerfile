@@ -5,5 +5,5 @@ FROM nginx:alpine
 COPY . /usr/share/nginx/html/test
 
 # Expose port 8080
-EXPOSE 18099
+EXPOSE 8080
  
