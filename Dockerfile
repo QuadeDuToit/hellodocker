@@ -1,11 +1,8 @@
-# Use an official lightweight Node.js image
-FROM node:alpine
+# Use NGINX as the base image
+FROM nginx:alpine
 
-# Set the working directory in the container
-WORKDIR /usr/src/app
-
-# Copy the current directory contents into the container at /usr/src/app
-COPY . .
+# Copy your HTML file to the NGINX document root
+COPY index.html /usr/share/nginx/html/
 
 # Expose port 18099
 EXPOSE 18099
